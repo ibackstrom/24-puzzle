@@ -34,13 +34,3 @@ CPP: 0.026 ms
 Tree for recursive generating bracket template:
 
 
-generate_patterns(4)
-├── left=1 → right=3
-│   ├── generate_patterns(1) → ["%s"]
-│   └── generate_patterns(3)
-│       ├── left=1 → right=2 → "(%s%s(%s%s%s))"
-│       └── left=2 → right=1 → "((%s%s%s)%s%s)"
-├── left=2 → right=2 → "((%s%s%s)%s(%s%s%s))"
-└── left=3 → right=1
-    └── generate_patterns(3) → используем снова
-)
