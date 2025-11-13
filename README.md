@@ -28,4 +28,4 @@ Python: 0.107 ms
 Ruby: 0.115 ms  
 CPP: 0.026 ms
 
-You can check the code and read whole post on gihub rep:
+*don't forget to compile tinyexpr before running cpp code
